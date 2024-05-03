@@ -10,7 +10,7 @@
         {
             Personas = new List<Persona> // crear lista de personas para hacer prueba de prototipo
             {
-                new Persona { Apellido = "Perez", Nombre = "Juan", Documento = 44333222, Telefono = new Telefono { Tipo = TipoTelefono.Casa, CodPais = 54, CodArea = 11, Numero = 31794445 } }, // esto después se va a borrar
+                new Persona { Apellido = "Perez", Nombre = "Ramiro", Documento = 44333222, Telefono = new Telefono { Tipo = TipoTelefono.Casa, CodPais = 54, CodArea = 11, Numero = 31794445 } }, // esto después se va a borrar
                 new Persona { Apellido = "González", Nombre = "María", Documento = 12345678, Telefono = new Telefono { Tipo = TipoTelefono.Otro, CodPais = 54, CodArea = 11, Numero = 311234567 } },
                 new Persona { Apellido = "Martínez", Nombre = "Carlos", Documento = 23456789, Telefono = new Telefono { Tipo = TipoTelefono.Trabajo, CodPais = 54, CodArea = 11, Numero = 322345678 } },
                 new Persona { Apellido = "López", Nombre = "Ana", Documento = 34567890, Telefono = new Telefono { Tipo = TipoTelefono.Casa, CodPais = 54, CodArea = 11, Numero = 333456789 } },
