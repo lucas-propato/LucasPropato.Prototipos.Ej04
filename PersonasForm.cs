@@ -50,7 +50,7 @@ namespace LucasPropato.Prototipos.Ej04
             ApellidoText.Text = personaAEditar.Apellido;
             NombreText.Text = personaAEditar.Nombre;
 
-            TipoCombo.SelectedItem = personaAEditar.Telefono.Tipo; // cuando son cadenas es SelectedItem
+            TipoCombo.SelectedItem = personaAEditar.Telefono.Tipo.ToString(); // cuando son cadenas es SelectedItem
             CodAreaText.Text = personaAEditar.Telefono.CodArea.ToString();
             CodPaisText.Text = personaAEditar.Telefono.CodPais.ToString();
             NumeroText.Text = personaAEditar.Telefono.Numero.ToString();
